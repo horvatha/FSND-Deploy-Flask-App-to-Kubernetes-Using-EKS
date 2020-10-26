@@ -2,6 +2,10 @@
 version: 0.2
 
 
+env:
+     paramter-store:
+         JWT_SECRET: JWT_SECRET
+
 phases:
   install:
     runtime-versions:
@@ -38,7 +42,3 @@ phases:
       - printf '[{"name":"simple_jwt_api","imageUri":"%s"}]' $REPOSITORY_URI:$TAG > build.json
 artifacts:
   files: build.json
-
- env:
-     paramter-store:
-         JWT_SECRET: JWT_SECRET
