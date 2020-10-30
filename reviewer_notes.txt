@@ -1,0 +1,9 @@
+Dear Reviewer!
+
+You can find the JWT API here:
+URL ad8d4a32b4abb49eb8701a5b996252da-2137689683.eu-central-1.elb.amazonaws.com
+IP 18.159.139.68
+
+Thanks,
+   Arpad
+
